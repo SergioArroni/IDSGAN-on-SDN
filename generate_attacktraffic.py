@@ -82,6 +82,5 @@ plt.plot(adr_tests, label="Adversarial detection rate")
 #plt.plot(eir_tests, label="Evasion increase rate")
 
 plt.legend()
-timestamp=datetime.now().strftime("%Y%m%d%_H%M%S")
+timestamp=datetime.now().strftime("%m-%d-%Y__%H-%M-%S")
 plt.savefig(f"result/graph/Test_{timestamp}.png")
-plt.show()
